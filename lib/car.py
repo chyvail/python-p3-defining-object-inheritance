@@ -1,4 +1,5 @@
-from vehicle import Vehicle
+from vehicle import Vehicle # to gain access to vehicle class
 
 class Car(Vehicle):
-    pass
+    def go(self): # we overide the return with one specific to the car class
+        return "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
